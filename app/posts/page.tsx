@@ -11,7 +11,7 @@ export default async function Posts() {
   }
   return (
     <section
-      className="flex flex-col items-center md:flex-none md:items-start max-w-xl mt-16 md:mt-24 z-20"
+      className="flex flex-col items-center md:flex-none md:items-start max-w-xl mt-24 z-20"
       style={{ minHeight: "72vh" }}
     >
       <h2 className="text-lg font-semibold text-zinc-100 pb-3">Blog Posts</h2>

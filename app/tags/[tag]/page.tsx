@@ -45,7 +45,7 @@ export default async function TagPostList({ params: { tag } }: Props) {
 
   return (
     <section
-      className="flex flex-col items-center md:flex-none md:items-start max-w-xl mt-16 md:mt-24 z-20"
+      className="flex flex-col items-center md:flex-none md:items-start max-w-xl mt-24 z-20"
       style={{ minHeight: "72vh" }}
     >
       <h2 className="font-semibold text-zinc-400 mt-4 mb-0">

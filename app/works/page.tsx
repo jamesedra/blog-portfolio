@@ -4,7 +4,7 @@ import { ProjectCard } from "@/components/project-card";
 
 export default function Works() {
   return (
-    <section className="flex flex-col items-center md:flex-none md:items-start mt-16 md:mt-24">
+    <section className="flex flex-col items-center md:flex-none md:items-start mt-24">
       <h2 className="text-lg font-semibold text-zinc-100">Work Archives</h2>
       <p className="text-sm text-center md:text-start text-zinc-500 font-light max-w-sm md:max-w-lg pb-10">
         a collection of projects from software to archived design research.

@@ -29,7 +29,7 @@ export default function RootLayout({
           <Background />
         </div>
         <Header />
-        <main className="flex min-w-min flex-col items-center justify-center">
+        <main className="flex min-w-min flex-col items-center justify-center bg-zinc-900">
           {children}
         </main>
         <Footer />

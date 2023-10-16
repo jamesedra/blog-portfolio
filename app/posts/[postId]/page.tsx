@@ -55,7 +55,7 @@ export default async function Post({ params: { postId } }: Props) {
 
   return (
     <section
-      className="w-80 sm:w-fit sm:max-w-lg md:max-w-2xl m-6 mx-auto z-10 mt-16 md:mt-24"
+      className="w-80 sm:w-fit sm:max-w-lg md:max-w-2xl m-6 mx-auto z-10 mt-24"
       style={{ minHeight: "69vh" }}
     >
       <span className="text-zinc-600 text-xs font-light">Blog Post</span>
