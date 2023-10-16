@@ -11,7 +11,7 @@ interface MenuProps {
 
 export const Menu = ({ links, onClick }: MenuProps) => {
   return (
-    <ul className="flex flex-col py-4 pb-1 items-center space-y-3 rounded-b-lg">
+    <ul className="flex flex-col py-4 pb-1 mb-5 items-center space-y-3 rounded-b-lg">
       {links.map((link, index) => (
         <li key={index}>
           <a

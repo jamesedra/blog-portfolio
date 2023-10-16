@@ -23,7 +23,7 @@ export default function RootLayout({
         className={`${inter.className} min-h-screen px-4 md:px-12 bg-zinc-900`}
       >
         <div
-          className="background-container absolute inset-0 z-0"
+          className="background-container hidden md:block absolute inset-0 z-0"
           style={{ pointerEvents: "none" }}
         >
           <Background />

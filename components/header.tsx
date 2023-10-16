@@ -47,7 +47,7 @@ export const Header = () => {
 
   return (
     <header
-      className="fixed top-0 left-0 right-0 z-30 bg-zinc-900/70"
+      className="fixed top-0 left-0 right-0 z-30 bg-neutral-900 sm:bg-zinc-900/70 border-b-2 border-stone-800 sm:border-none"
       style={{ backdropFilter: "blur(10px)" }}
     >
       <div className="flex flex-wrap mx-auto max-w-screen-2xl px-2 py-1 items-center justify-between w-[85%]">
@@ -62,12 +62,12 @@ export const Header = () => {
               unoptimized
               style={{ filter: "invert(100%)" }}
             />
-            <span className="hidden md:block text-zinc-300 font-light text-lg ml-2">
+            <span className="hidden sm:block text-zinc-300 font-light text-lg ml-2">
               edra
             </span>
           </div>
         </Link>
-        <div className="mobile-menu block md:hidden">
+        <div className="mobile-menu block sm:hidden">
           {!navbarOpen ? (
             <button
               onClick={() => setNavbarOpen(true)}
@@ -84,7 +84,7 @@ export const Header = () => {
             </button>
           )}
         </div>
-        <nav className="menu hidden md:flex md:w-auto" id="navbar">
+        <nav className="menu hidden sm:flex sm:w-auto" id="navbar">
           <ul className="flex p-4 md:p-0 sm:flex-row md:space-x-8 mt-0">
             {links.map((link, index) => (
               <li key={index}>
