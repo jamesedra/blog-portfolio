@@ -47,7 +47,7 @@ export const Header = () => {
 
   return (
     <header
-      className="fixed top-0 left-0 right-0 z-30 bg-neutral-900 sm:bg-zinc-900/70 border-b-2 border-stone-800 sm:border-none py-1 md:py-2"
+      className="fixed top-0 left-0 right-0 z-30 bg-neutral-900 sm:bg-zinc-900/70 border-b-2 border-stone-800 sm:border-none md:py-2"
       style={{ backdropFilter: "blur(10px)" }}
     >
       <div className="flex flex-wrap mx-auto max-w-screen-2xl px-2 py-1 items-center justify-between w-[85%]">
