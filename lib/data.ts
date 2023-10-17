@@ -32,7 +32,7 @@ export const projectsData = [
     description: "personal website built with Next.js",
     tags: ["React", "TypeScript", "Next.js", "Node.js"],
     gitUrl: "https://github.com/jamesedra/blog-portfolio",
-    image: "/images/Portfolio.PNG",
+    image: "/images/website.gif",
   },
   {
     id: 5,
