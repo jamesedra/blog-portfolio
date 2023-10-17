@@ -28,7 +28,11 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
       >
         <div
           className="overlay items-center justify-center absolute top-0 left-0 rounded-lg w-full h-full bg-gray-700 bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-40 transition-all duration-500"
-          style={{ backdropFilter: "blur(2px)", opacity: 1 }}
+          style={{
+            WebkitBackdropFilter: "blur(2px)",
+            backdropFilter: "blur(2px)",
+            opacity: 1,
+          }}
         >
           <Link
             href={gitUrl}
