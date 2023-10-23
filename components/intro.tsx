@@ -10,7 +10,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 export const Intro = () => {
   return (
-    <section className="mt-10 lg:mt-64">
+    <section className="mt-10 lg:mt-40 xl:mt-64">
       <div className="grid grid-cols-1 lg:grid-cols-12">
         <div className="col-span-1 lg:col-span-8 place-self-center text-center lg:text-left justify-center">
           <h1 className="text-zinc-50 mb-4 text-4xl lg:text-6xl font-extrabold mx-4 sm:mx-0">
