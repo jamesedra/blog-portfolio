@@ -37,6 +37,7 @@ export const Intro = () => {
               to="contact"
               smooth={true}
               duration={900}
+              offset={-90}
               className="bg-zinc-50 text-zinc-900 justify-center max-w-[90%] w-full sm:w-fit px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 hover:bg-gray-300 active:scale-105 transition whitespace-nowrap cursor-pointer"
             >
               Let&apos;s Connect!
