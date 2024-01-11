@@ -1,21 +1,20 @@
 export const projectsData = [
   {
     id: 1,
-    title: "QuadTree Pruning",
-    description: "a color quantization algorithm tested to compress images",
-    tags: ["C++"],
-    gitUrl:
-      "https://github.com/jamesedra/Memo-ized-Binary-Tree-for-Image-Processing-and-Compression-",
-    image: "/images/QuadTree.gif",
+    title: "3D Paddle Play",
+    description: "a 3D Pong clone game made in Unity URP.",
+    tags: ["Unity", "C#", "Cg"],
+    gitUrl: "https://github.com/jamesedra/3D-Paddle-Play",
+    image: "/images/paddleplay.gif",
   },
   {
     id: 2,
-    title: "Stack and Queue Flood Fills",
+    title: "Parametric Surfaces Application",
     description:
-      "exploring fill algorithms, from depth and breadth-first searches",
-    tags: ["C++", "ImageMagick"],
-    gitUrl: "https://github.com/jamesedra/Stack-Queue-and-Flood-Fill",
-    image: "/images/FloodFill.gif",
+      "A short simulation app animating optimized mathematical surfaces.",
+    tags: ["Unity", "C#", "Cg", "HLSL"],
+    gitUrl: "https://github.com/jamesedra/Parametric-Surfaces",
+    image: "/images/parametric.gif",
   },
   {
     id: 3,
@@ -34,8 +33,37 @@ export const projectsData = [
     gitUrl: "https://github.com/jamesedra/blog-portfolio",
     image: "/images/website.gif",
   },
+] as const;
+
+export const researchData = [
   {
-    id: 5,
+    id: 1,
+    title: "Organic Fractal Simulation",
+    description:
+      "procedurally generating a depth-based colored, 3D &quot;organic&quot; Sierpinski Pyramid",
+    tags: ["Unity", "C#", "Cg", "HLSL"],
+    gitUrl: "https://github.com/jamesedra/Organic-Fractal-Simulation",
+    image: "/images/FractalShowcase.gif",
+  },
+  {
+    id: 2,
+    title: "QuadTree Pruning",
+    description: "a color quantization algorithm tested to compress images",
+    tags: ["C++"],
+    gitUrl: "https://github.com/jamesedra/QuadTree-Pruning-System",
+    image: "/images/QuadTree.gif",
+  },
+  {
+    id: 3,
+    title: "Stack and Queue Flood Fills",
+    description:
+      "exploring fill algorithms, from depth and breadth-first searches",
+    tags: ["C++", "ImageMagick"],
+    gitUrl: "https://github.com/jamesedra/Stack-Queue-and-Flood-Fill",
+    image: "/images/FloodFill.gif",
+  },
+  {
+    id: 4,
     title: "Pixel Manipulation",
     description:
       "a short exercise on handling images divided and stored in lists",
@@ -90,10 +118,13 @@ export const skillsData = [
   "PostgreSQL",
   "Framer Motion",
   "RESTFUL",
-  "Figma",
   "Python",
   "Java",
   "C",
+  "C#",
   "C++",
   "R",
+  "Unity",
+  "Cg",
+  "HLSL",
 ] as const;
