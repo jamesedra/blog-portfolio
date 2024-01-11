@@ -40,7 +40,7 @@ export const researchData = [
     id: 1,
     title: "Organic Fractal Simulation",
     description:
-      "procedurally generating a depth-based colored, 3D &quot;organic&quot; Sierpinski Pyramid",
+      "procedurally generating a depth-based colored, 3D organic Sierpinski Pyramid",
     tags: ["Unity", "C#", "Cg", "HLSL"],
     gitUrl: "https://github.com/jamesedra/Organic-Fractal-Simulation",
     image: "/images/FractalShowcase.gif",
