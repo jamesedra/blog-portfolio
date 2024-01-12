@@ -2,7 +2,7 @@ export const projectsData = [
   {
     id: 1,
     title: "3D Paddle Play",
-    description: "a 3D Pong clone game made in Unity URP.",
+    description: "a 3D Pong clone game made in Unity Universal Render Pipeline",
     tags: ["Unity", "C#", "Cg"],
     gitUrl: "https://github.com/jamesedra/3D-Paddle-Play",
     image: "/images/paddleplay.gif",
@@ -11,7 +11,7 @@ export const projectsData = [
     id: 2,
     title: "Parametric Surfaces Application",
     description:
-      "A short simulation app animating optimized mathematical surfaces.",
+      "a short simulation app animating optimized mathematical surfaces",
     tags: ["Unity", "C#", "Cg", "HLSL"],
     gitUrl: "https://github.com/jamesedra/Parametric-Surfaces",
     image: "/images/parametric.gif",
