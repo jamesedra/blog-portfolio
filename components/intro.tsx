@@ -19,9 +19,16 @@ export const Intro = () => {
             </span>
           </h1>
           <p className="mx-3 sm:mx-0 text-gray-400 mb-6 text-base font-light sm:text-lg lg:text-xl">
-            hello, I&apos;m an aspiring software developer and welcome to my{" "}
+            hello, I like{" "}
             <TypeAnimation
-              sequence={["portfolio", 1500, "blog", 1500, "sandbox.", 1500]}
+              sequence={[
+                "developing software projects",
+                1500,
+                "simulating graphics",
+                1500,
+                "creating fun things.",
+                1500,
+              ]}
               wrapper="span"
               speed={50}
               style={{ fontSize: "1em", display: "inline-block" }}
