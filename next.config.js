@@ -8,7 +8,7 @@ const nextConfig = {
         protocol: "https",
         hostname: "raw.githubusercontent.com",
         port: "",
-        pathname: "/jamesedra/blog-posts/main/images/**",
+        pathname: "/jamesedra/blog-portfolio/master/blog-images/**",
       },
     ],
   },
