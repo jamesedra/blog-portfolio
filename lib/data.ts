@@ -47,6 +47,14 @@ export const researchData = [
   },
   {
     id: 2,
+    title: "Hashing Case Study",
+    description: "visualizing pseudorandomness using hash values in a 3D plane",
+    tags: ["Unity", "C#", "Cg", "HLSL"],
+    gitUrl: "https://github.com/jamesedra/Hashing",
+    image: "/images/hashing-example.PNG",
+  },
+  {
+    id: 3,
     title: "QuadTree Pruning",
     description: "a color quantization algorithm tested to compress images",
     tags: ["C++"],
@@ -54,7 +62,7 @@ export const researchData = [
     image: "/images/QuadTree.gif",
   },
   {
-    id: 3,
+    id: 4,
     title: "Stack and Queue Flood Fills",
     description:
       "exploring fill algorithms, from depth and breadth-first searches",
@@ -63,7 +71,7 @@ export const researchData = [
     image: "/images/FloodFill.gif",
   },
   {
-    id: 4,
+    id: 5,
     title: "Pixel Manipulation",
     description:
       "a short exercise on handling images divided and stored in lists",
