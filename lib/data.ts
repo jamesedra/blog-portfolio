@@ -68,7 +68,7 @@ export const researchData = [
       "exploring fill algorithms, from depth and breadth-first searches",
     tags: ["C++", "ImageMagick"],
     gitUrl: "https://github.com/jamesedra/Stack-Queue-and-Flood-Fill",
-    image: "/images/FloodFill.gif",
+    image: "/images/FloodFillCut.gif",
   },
   {
     id: 5,
@@ -90,7 +90,7 @@ export const designWorkData = [
     tags: ["Research", "Hub Server Design"],
     gitUrl:
       "https://www.canva.com/design/DAFfqTU6UjI/2PeRYhAO6l3mR_XgzNkebw/view?utm_content=DAFfqTU6UjI&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
-    image: "/images/minecraft.png",
+    image: "/images/Minecraft.gif",
   },
   {
     id: 2,
@@ -108,7 +108,17 @@ export const designWorkData = [
     tags: ["Archived", "Streetscape Design"],
     gitUrl:
       "https://www.canva.com/design/DAFxbB3pF5o/popGMc8M5GHNmri2XBXaDA/view?utm_content=DAFxbB3pF5o&utm_campaign=designshare&utm_medium=link&utm_source=editor",
-    image: "/images/adriatiko.png",
+    image: "/images/Adriatiko.gif",
+  },
+  {
+    id: 4,
+    title: "Laguna Industrial Town Design",
+    description:
+      "allocating community spaces for unused plots via urban plan strategies",
+    tags: ["Archived", "Urban Design"],
+    gitUrl:
+      "https://www.canva.com/design/DAFxbB3pF5o/popGMc8M5GHNmri2XBXaDA/view?utm_content=DAFxbB3pF5o&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+    image: "/images/UrbanPlan.gif",
   },
 ] as const;
 

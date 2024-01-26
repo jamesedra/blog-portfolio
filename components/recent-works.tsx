@@ -28,7 +28,7 @@ export const RecentWorks = () => {
         href="/works"
         className="text-sm font-extralight text-stone-500 hover:text-stone-100 transition-colors mt-2 flex justify-center lg:justify-start lg:w-36"
       >
-        View Work Archives &gt;
+        View All Works &gt;
       </a>
     </>
   );

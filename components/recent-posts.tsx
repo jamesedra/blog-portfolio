@@ -27,6 +27,13 @@ export default async function RecentPosts() {
           <PostList key={post.id} post={post} />
         ))}
       </ul>
+      <br />
+      <a
+        href="/posts"
+        className="text-sm font-extralight text-stone-500 hover:text-stone-100 transition-colors mt-2 flex justify-center lg:justify-start lg:w-36"
+      >
+        View All Posts &gt;
+      </a>
     </section>
   );
 }

@@ -6,7 +6,7 @@ import { ProjectCard } from "@/components/project-card";
 export default function Works() {
   return (
     <section className="flex flex-col items-center md:flex-none md:items-start mt-24">
-      <h2 className="text-lg font-semibold text-zinc-100">Work Archives</h2>
+      <h2 className="text-lg font-semibold text-zinc-100">Work Archive</h2>
       <p className="text-sm text-center md:text-start text-zinc-500 font-light max-w-sm md:max-w-lg pb-10">
         a collection of projects from software to archived design research.
       </p>
@@ -30,10 +30,10 @@ export default function Works() {
       </div>
       <div className="border-t border-zinc-700/40 mt-14 mb-14 w-full"></div>
       <h3 className="font-semibold text-zinc-300 pb-2">
-        Algorithms and Simulations
+        Algorithms, Simulations, and Explorations
       </h3>
       <p className="text-sm text-center md:text-start text-zinc-400 font-light pb-4 max-w-sm md:max-w-lg">
-        records of researching to build new things.
+        records of personal and academic skill development to build new things.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 justify-center">
         {researchData.map((project) => (

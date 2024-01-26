@@ -24,7 +24,11 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
     <div className={`max-w-xs items-center justify-center`}>
       <div
         className={`h-52 rounded-lg relative group`}
-        style={{ background: `url(${imgUrl})`, backgroundSize: "cover" }}
+        style={{
+          background: `url(${imgUrl})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
       >
         <div
           className="overlay items-center justify-center absolute top-0 left-0 rounded-lg w-full h-full bg-gray-700 bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-40 transition-all duration-500"
