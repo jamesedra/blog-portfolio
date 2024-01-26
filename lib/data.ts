@@ -51,7 +51,7 @@ export const researchData = [
     description: "visualizing pseudorandomness using hash values in a 3D plane",
     tags: ["Unity", "C#", "Cg", "HLSL"],
     gitUrl: "https://github.com/jamesedra/Hashing",
-    image: "/images/hashing-example.PNG",
+    image: "/images/DomainTRS.gif",
   },
   {
     id: 3,
