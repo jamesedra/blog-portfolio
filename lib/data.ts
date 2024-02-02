@@ -94,6 +94,16 @@ export const designWorkData = [
   },
   {
     id: 2,
+    title: "Environment Art Study - 0",
+    description:
+      "A style study based on modern pixel games focusing on ambient 2D environment art.",
+    tags: ["Research", "Aseprite", "Pixel Art"],
+    gitUrl:
+      "https://raw.githubusercontent.com/jamesedra/blog-portfolio/master/public/images/design-concept.PNG",
+    image: "/images/design-concept.PNG",
+  },
+  {
+    id: 3,
     title: "Puntahanan: a design framework",
     description: "a study on reconsidering voids from light industry locations",
     tags: ["Research", "Archived", "Urban Design"],
@@ -102,7 +112,7 @@ export const designWorkData = [
     image: "/images/Thesis.jpg",
   },
   {
-    id: 3,
+    id: 4,
     title: "Adriatiko",
     description: "experimenting placemaking theory on abandoned streetscapes",
     tags: ["Archived", "Streetscape Design"],
@@ -111,7 +121,7 @@ export const designWorkData = [
     image: "/images/Adriatiko.gif",
   },
   {
-    id: 4,
+    id: 5,
     title: "Laguna Industrial Town Design",
     description:
       "allocating community spaces for unused plots via urban plan strategies",
