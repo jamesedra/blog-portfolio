@@ -94,9 +94,9 @@ export const designWorkData = [
   },
   {
     id: 2,
-    title: "Environment Art Study - 0",
+    title: "Tilemap Art Study - Ambience",
     description:
-      "A style study based on modern pixel games focusing on ambient 2D environment art.",
+      "a style study composition based on modern 2D pixel games focusing on ambient environments",
     tags: ["Research", "Aseprite", "Pixel Art"],
     gitUrl:
       "https://raw.githubusercontent.com/jamesedra/blog-portfolio/master/public/images/design-concept.PNG",
