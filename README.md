@@ -9,7 +9,7 @@ This is the source code for my personal portfolio and blog website, showcasing m
 
 ## Stack
 - **Frontend**: Next.js, TypeScript, [Tailwind CSS](https://tailwindcss.com/), [Chakra UI](https://chakra-ui.com/)
-- **Backend** Node.js with [Nodemailer](https://nodemailer.com/)
+- **Mail Integration**: Node.js with [Nodemailer](https://nodemailer.com/)
 - **API Integration**: [Github API](https://docs.github.com/en/rest?apiVersion=2022-11-28)
 - **Markdown Processing**:- [next-mdx-remote](https://github.com/hashicorp/next-mdx-remote)
 - **Sitemap Generation**: [next-sitemap](https://github.com/iamvishnusankar/next-sitemap)
