@@ -69,7 +69,7 @@ export const researchData = [
     tags: ["C++", "ImageMagick"],
     gitUrl: "https://github.com/jamesedra/Stack-Queue-and-Flood-Fill",
     image: "/images/FloodFillCut.gif",
-  },
+  } /*,
   {
     id: 5,
     title: "Pixel Manipulation",
@@ -78,7 +78,7 @@ export const researchData = [
     tags: ["C++"],
     gitUrl: "https://github.com/jamesedra/Pixel-Manipulation",
     image: "/images/pixel.png",
-  },
+  },*/,
 ] as const;
 
 export const designWorkData = [
@@ -86,7 +86,7 @@ export const designWorkData = [
     id: 1,
     title: "Minecraft Education Learning Portal",
     description:
-      "researched and developed an innovative hub server for Minecraft Education",
+      "researched and developed an innovative hub server framework for Minecraft Education",
     tags: ["Research", "Hub Server Design"],
     gitUrl:
       "https://www.canva.com/design/DAFfqTU6UjI/2PeRYhAO6l3mR_XgzNkebw/view?utm_content=DAFfqTU6UjI&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
@@ -101,7 +101,7 @@ export const designWorkData = [
     gitUrl:
       "https://raw.githubusercontent.com/jamesedra/blog-portfolio/master/public/images/design-concept.PNG",
     image: "/images/design-concept.PNG",
-  },
+  } /*,
   {
     id: 3,
     title: "Puntahanan: a design framework",
@@ -129,7 +129,7 @@ export const designWorkData = [
     gitUrl:
       "https://www.canva.com/design/DAFxbB3pF5o/popGMc8M5GHNmri2XBXaDA/view?utm_content=DAFxbB3pF5o&utm_campaign=designshare&utm_medium=link&utm_source=editor",
     image: "/images/UrbanPlan.gif",
-  },
+  },*/,
 ] as const;
 
 export const skillsData = [

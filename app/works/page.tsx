@@ -8,7 +8,7 @@ export default function Works() {
     <section className="flex flex-col items-center md:flex-none md:items-start mt-24">
       <h2 className="text-lg font-semibold text-zinc-100">Work Archive</h2>
       <p className="text-sm text-center md:text-start text-zinc-500 font-light max-w-sm md:max-w-lg pb-10">
-        a collection of projects from software to archived design research.
+        a collection of personal and academic outputs.
       </p>
       <h3 className="font-semibold text-zinc-300 pb-2">Technical Works</h3>
       <p className="text-sm text-center md:text-start text-zinc-400 font-light pb-4 max-w-sm md:max-w-lg">
@@ -54,8 +54,7 @@ export default function Works() {
         Previous Digital Design Works
       </h3>
       <p className="text-sm text-center md:text-start text-zinc-400 font-light pb-4 max-w-sm md:max-w-lg">
-        a small archive of exercising problem solving and creative thinking in
-        multiple disciplines.
+        problem solving and creative thinking in visual mediums.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 justify-center">
         {designWorkData.map((project) => (
