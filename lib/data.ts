@@ -2,7 +2,8 @@ export const projectsData = [
   {
     id: 1,
     title: "3D Paddle Play",
-    description: "a 3D Pong clone game made in Unity Universal Render Pipeline",
+    description:
+      "a Pong clone in 3D pixel art made in Unity Universal Render Pipeline",
     tags: ["Unity", "C#", "Cg"],
     gitUrl: "https://github.com/jamesedra/3D-Paddle-Play",
     image: "/images/paddleplay.gif",
