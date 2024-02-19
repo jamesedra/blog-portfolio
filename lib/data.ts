@@ -29,7 +29,8 @@ export const projectsData = [
   {
     id: 4,
     title: "Personal Website",
-    description: "personal website built with Next.js",
+    description:
+      "personal blog and portfolio built in Next.js with pseudorandom particle effects",
     tags: ["React", "TypeScript", "Next.js", "Node.js"],
     gitUrl: "https://github.com/jamesedra/blog-portfolio",
     image: "/images/website.gif",

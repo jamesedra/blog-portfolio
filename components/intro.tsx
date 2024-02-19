@@ -24,7 +24,7 @@ export const Intro = () => {
               sequence={[
                 "developing software projects",
                 1500,
-                "simulating graphics",
+                "learning new technologies",
                 1500,
                 "creating fun things.",
                 1500,
