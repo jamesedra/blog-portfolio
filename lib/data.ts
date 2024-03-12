@@ -89,7 +89,7 @@ export const designWorkData = [
     title: "Minecraft Education Learning Portal",
     description:
       "researched and developed an innovative hub server framework for Minecraft Education",
-    tags: ["Research", "Hub Server Design"],
+    tags: ["Research", "Hub Server Design", "SketchUp"],
     gitUrl:
       "https://www.canva.com/design/DAFfqTU6UjI/2PeRYhAO6l3mR_XgzNkebw/view?utm_content=DAFfqTU6UjI&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
     image: "/images/Minecraft.gif",
@@ -103,7 +103,7 @@ export const designWorkData = [
     gitUrl:
       "https://raw.githubusercontent.com/jamesedra/blog-portfolio/master/public/images/design-concept.PNG",
     image: "/images/design-concept.PNG",
-  } /*,
+  },
   {
     id: 3,
     title: "Puntahanan: a design framework",
@@ -117,11 +117,11 @@ export const designWorkData = [
     id: 4,
     title: "Adriatiko",
     description: "experimenting placemaking theory on abandoned streetscapes",
-    tags: ["Archived", "Streetscape Design"],
+    tags: ["Archived", "Streetscape Design", "SketchUp"],
     gitUrl:
       "https://www.canva.com/design/DAFxbB3pF5o/popGMc8M5GHNmri2XBXaDA/view?utm_content=DAFxbB3pF5o&utm_campaign=designshare&utm_medium=link&utm_source=editor",
     image: "/images/Adriatiko.gif",
-  },
+  } /*
   {
     id: 5,
     title: "Laguna Industrial Town Design",
