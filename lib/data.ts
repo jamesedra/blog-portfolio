@@ -109,8 +109,7 @@ export const designWorkData = [
     title: "Puntahanan: a design framework",
     description: "a study on reconsidering voids from light industry locations",
     tags: ["Research", "Archived", "Urban Design"],
-    gitUrl:
-      "https://www.canva.com/design/DAFxarsbp2Y/UL69Fq98ylwSSrq2G8nn8Q/view?utm_content=DAFxarsbp2Y&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+    gitUrl: "https://arch.benilde.edu.ph/puntahan-by-edralin-delsther-james/",
     image: "/images/Thesis.jpg",
   },
   {
