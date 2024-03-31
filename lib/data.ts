@@ -32,7 +32,7 @@ export const projectsData = [
     description:
       "personal blog and portfolio built in Next.js with pseudorandom particle effects",
     tags: ["React", "TypeScript", "Next.js", "Node.js"],
-    gitUrl: "https://github.com/jamesedra/CRUD-Project-Prototype",
+    gitUrl: "https://github.com/jamesedra/blog-portfolio",
     image: "/images/website.gif",
   },
   {
@@ -41,7 +41,7 @@ export const projectsData = [
     description:
       "A dog walking social application built in React, Node.js, and PostgreSQL.",
     tags: ["React", "JavaScript", "Node.js", "PostgreSQL"],
-    gitUrl: "https://github.com/jamesedra/blog-portfolio",
+    gitUrl: "https://github.com/jamesedra/CRUD-Project-Prototype",
     image: "/images/CRUD.gif",
   },
 ] as const;
