@@ -68,6 +68,7 @@ export const Mail = () => {
       ...prev,
       isLoading: true,
     }));
+    debugger;
     // console.log(values); check is values were passed
     try {
       await sendContactForm(values);

@@ -32,8 +32,17 @@ export const projectsData = [
     description:
       "personal blog and portfolio built in Next.js with pseudorandom particle effects",
     tags: ["React", "TypeScript", "Next.js", "Node.js"],
-    gitUrl: "https://github.com/jamesedra/blog-portfolio",
+    gitUrl: "https://github.com/jamesedra/CRUD-Project-Prototype",
     image: "/images/website.gif",
+  },
+  {
+    id: 5,
+    title: "Wag&Trails CRUD Web Prototype",
+    description:
+      "A dog walking social application built in React, Node.js, and PostgreSQL.",
+    tags: ["React", "JavaScript", "Node.js", "PostgreSQL"],
+    gitUrl: "https://github.com/jamesedra/blog-portfolio",
+    image: "/images/CRUD.gif",
   },
 ] as const;
 
@@ -120,7 +129,7 @@ export const designWorkData = [
     gitUrl:
       "https://www.canva.com/design/DAFxbB3pF5o/popGMc8M5GHNmri2XBXaDA/view?utm_content=DAFxbB3pF5o&utm_campaign=designshare&utm_medium=link&utm_source=editor",
     image: "/images/Adriatiko.gif",
-  } /*
+  },
   {
     id: 5,
     title: "Laguna Industrial Town Design",
@@ -130,7 +139,7 @@ export const designWorkData = [
     gitUrl:
       "https://www.canva.com/design/DAFxbB3pF5o/popGMc8M5GHNmri2XBXaDA/view?utm_content=DAFxbB3pF5o&utm_campaign=designshare&utm_medium=link&utm_source=editor",
     image: "/images/UrbanPlan.gif",
-  },*/,
+  },
 ] as const;
 
 export const skillsData = [
