@@ -37,7 +37,7 @@ export const projectsData = [
   },
   {
     id: 5,
-    title: "Wag&Trails CRUD Web Prototype",
+    title: "Wag&Trails CRUD Web Application",
     description:
       "A dog walking social application built in React, Node.js, and PostgreSQL.",
     tags: ["React", "JavaScript", "Node.js", "PostgreSQL"],
@@ -143,6 +143,30 @@ export const designWorkData = [
 ] as const;
 
 export const skillsData = [
+  "Unity",
+  ".NET",
+  "Mono",
+  "C#",
+  "C++",
+  "Cg/ShaderLab",
+  "HLSL",
+  "Git",
+  "Perforce",
+  "Blender",
+  "Aseprite",
+  "JavaScript",
+  "TypeScript",
+  "React",
+  "Next.js",
+  "Node",
+  "Tailwind",
+  "PostgreSQL",
+  "GraphQL",
+  "RESTFUL API",
+] as const;
+
+/**
+ export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
@@ -165,4 +189,5 @@ export const skillsData = [
   "Unity",
   "Cg",
   "HLSL",
-] as const;
+] as const; 
+ */
