@@ -143,25 +143,22 @@ export const designWorkData = [
 ] as const;
 
 export const skillsData = [
-  "Unity",
-  ".NET",
-  "Mono",
-  "C#",
+  "Unreal Engine 5",
   "C++",
-  "Cg/ShaderLab",
+  "Unity 3D",
+  ".NET",
+  "C#",
+  "ShaderLab",
   "HLSL",
   "Git",
   "Perforce",
   "Blender",
   "Aseprite",
   "JavaScript",
-  "TypeScript",
   "React",
   "Next.js",
   "Node",
-  "Tailwind",
   "PostgreSQL",
-  "GraphQL",
   "RESTFUL API",
 ] as const;
 
