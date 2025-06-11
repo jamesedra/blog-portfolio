@@ -102,7 +102,7 @@ export const toolsData = [
     title: "Night Sky System",
     description:
       "A tool to easily calibrate the night sky built for a sky sphere material. Involves moon phase shading.",
-    tags: ["Unreal Engine 5", "Blueprints"],
+    tags: ["Unreal Engine 5", "Blueprints", "HLSL"],
     gitUrl: "",
     image: "/images/moonsettingsdemo.gif",
   },
@@ -124,27 +124,27 @@ export const researchData = [
     description:
       "A style study composition based on modern 2D pixel games focusing on ambient environments.",
     tags: ["Research", "Aseprite", "Pixel Art"],
-    gitUrl:
-      "https://raw.githubusercontent.com/jamesedra/blog-portfolio/master/public/images/design-concept.PNG",
+    gitUrl: "",
     image: "/images/design-concept.PNG",
   },
   {
     id: 3,
-    title: "Organic Fractal Simulation",
-    description:
-      "Procedurally generating a depth-based colored, 3D organic Sierpinski Pyramid.",
-    tags: ["Unity", "C#", "HLSL"],
-    gitUrl: "https://github.com/jamesedra/Organic-Fractal-Simulation",
-    image: "/images/FractalShowcase.gif",
-  },
-  {
-    id: 4,
     title: "Parametric Surfaces Application",
     description:
       "A short simulation app animating optimized mathematical surfaces.",
     tags: ["Unity", "C#", "HLSL"],
     gitUrl: "https://github.com/jamesedra/Parametric-Surfaces",
     image: "/images/parametric.gif",
+  },
+
+  {
+    id: 4,
+    title: "Organic Fractal Simulation",
+    description:
+      "Procedurally generating a depth-based colored, 3D organic Sierpinski Pyramid.",
+    tags: ["Unity", "C#", "HLSL"],
+    gitUrl: "https://github.com/jamesedra/Organic-Fractal-Simulation",
+    image: "/images/FractalShowcase.gif",
   },
 ] as const;
 
@@ -193,9 +193,9 @@ export const designWorkData = [
 export const recentData = [
   {
     id: 1,
-    title: "PBR Graphics Engine",
+    title: "Physically-based Rendering Engine",
     description:
-      "An OpenGL graphics engine for learning how graphics engines can be built and structured.",
+      "An OpenGL ECS graphics engine for learning how graphics engines can be built and structured. Supports deferred rendering, material systems, model loading, image-based lighting, shadow mapping, and terrain systems.",
     tags: [
       "OpenGL",
       "C++",
@@ -204,7 +204,7 @@ export const recentData = [
       "Engine Development",
     ],
     gitUrl: "https://github.com/jamesedra/Engine-0",
-    image: "/images/engine.gif",
+    image: "/images/crop-engine.png",
   },
   {
     id: 2,
