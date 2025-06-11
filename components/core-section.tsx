@@ -15,9 +15,9 @@ export const Core = () => {
         className="lg:grid items-center justify-center lg:justify-start lg:grid-cols-3 gap-8"
         style={{ alignItems: "start" }}
       >
-        <div className="col-span-1 lg:col-span-2 items-center justify-center lg:items-start pb-8 md:pb-14">
+        <div className="col-span-1 lg:col-span-2 items-center justify-center lg:items-start pb-8 md:pb-8">
           <RecentWorks />
-          <div className="border-t border-zinc-700/40 mt-16 mb-16"></div>
+          <div className="border-t border-zinc-700/40 mt-8 mb-8"></div>
           <RecentPosts />
         </div>
         <div className="col-span-1">

@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Edra - BlogFolio",
-  description: "An aspiring developer studying Computer Science in UBC.",
+  description: "Developer studying Computer Science in UBC.",
 };
 
 export default function RootLayout({

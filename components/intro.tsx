@@ -10,34 +10,31 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 export const Intro = () => {
   return (
-    <section className="mt-10 lg:mt-32 xl:mt-64">
+    <section className="mt-10 lg:mt-10 xl:mt-10">
       <div className="grid grid-cols-1 lg:grid-cols-12">
         <div className="col-span-1 lg:col-span-8 place-self-center text-center lg:text-left justify-center">
           <h1 className="text-zinc-50 mb-4 text-4xl lg:text-6xl font-extrabold mx-4 sm:mx-0">
             <span className="font-light">
-              a space to craft, develop, and plot some ideas.
+              hello, thank you for stopping by.
             </span>
           </h1>
           <p className="mx-3 sm:mx-0 text-gray-400 mb-6 text-base font-light sm:text-lg lg:text-xl">
-            hello, I like{" "}
+            I&apos;m James Edralin. I do some work in{" "}
             <TypeAnimation
               sequence={[
-                "developing software projects",
+                "graphics programming.",
                 1500,
-                "learning new technologies",
+                "technical art.",
                 1500,
-                "creating fun things.",
+                "engine development.",
                 1500,
               ]}
               wrapper="span"
               speed={50}
               style={{ fontSize: "1em", display: "inline-block" }}
-              repeat={1}
+              repeat={10}
             />
             <br></br>
-          </p>
-          <p className="text-gray-400 mb-6 text-base font-light sm:text-lg lg:text-xl text-center lg:text-right lg:mr-24">
-            - james edralin
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center lg:items-start lg:justify-start gap-2 text-base z-20">
             <Link

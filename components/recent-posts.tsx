@@ -11,7 +11,7 @@ export default async function RecentPosts() {
           Recent Posts
         </h2>
         <p className="mt-12 text-center lg:text-start lg:ml-4">
-          Sorry, no posts available.
+          Sorry, posts are currently in the works.
         </p>{" "}
       </section>
     );
