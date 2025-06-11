@@ -16,10 +16,11 @@ export default function Works() {
         experiences from design, VR development, to graphics programming.
       </p>
       <h3 className="font-semibold text-zinc-300 pb-2">
-        Virtual Reality Development
+        Unreal Engine Development
       </h3>
       <p className="text-sm text-center md:text-start text-zinc-400 font-light pb-4 max-w-sm md:max-w-lg">
-        currently focused on educational technology outputs.
+        currently focused on educational technology shipped outputs in Virtual
+        Reality.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 justify-center">
         {ueData.map((project) => (
@@ -57,11 +58,12 @@ export default function Works() {
         ))}
       </div>
       <div className="border-t border-zinc-700/40 mt-14 mb-14 w-full"></div>
+
       <h3 className="font-semibold text-zinc-300 pb-2">
         Procedural Tools and Systems
       </h3>
       <p className="text-sm text-center md:text-start text-zinc-400 font-light pb-4 max-w-sm md:max-w-lg">
-        sub-features and tools I developed for streamlining projects.
+        sub-features and tools developed for streamlining projects.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 justify-center">
         {toolsData.map((project) => (

@@ -5,7 +5,7 @@ export const ueData = [
     description:
       "A sound localization evaluation tool. Developed the weather system, flora and fauna instancing tools, material texturing, and UI functionalities.",
     tags: [
-      "Unreal Engine 5",
+      "Virtual Reality",
       "C++",
       "Blueprints",
       "PCG",
@@ -21,7 +21,7 @@ export const ueData = [
     title: "Procedural Poetry Playhouse",
     description:
       "An application for the UBC Creative Writing faculty. Developed maze generating algorithms, object instancing systems, and UI functionalities.",
-    tags: ["Unreal Engine 5", "C++", "Blueprints"],
+    tags: ["Virtual Reality", "C++", "Blueprints"],
     gitUrl: "https://eml.ubc.ca/projects/procedural-poetry-playhouse/",
     image: "/images/poetry.png",
   },
@@ -30,9 +30,9 @@ export const ueData = [
 export const renderingData = [
   {
     id: 1,
-    title: "PBR Graphics Engine",
+    title: "Physically-based Rendering Engine",
     description:
-      "An OpenGL graphics engine for learning how graphics engines can be built and structured.",
+      "An OpenGL ECS graphics engine for learning how graphics engines can be built and structured. Supports deferred rendering, material systems, model loading, image-based lighting, shadow mapping, and terrain systems.",
     tags: [
       "OpenGL",
       "C++",
@@ -41,7 +41,7 @@ export const renderingData = [
       "Engine Development",
     ],
     gitUrl: "https://github.com/jamesedra/Engine-0",
-    image: "/images/engine.gif",
+    image: "/images/engine-0.png",
   },
   {
     id: 2,
@@ -53,14 +53,13 @@ export const renderingData = [
       "HLSL",
       "Non-photorealistic Rendering",
       "Post-processing",
-      "Blender",
     ],
     gitUrl: "https://www.artstation.com/artwork/rl09ve",
     image: "/images/ray-marching.gif",
   },
   {
     id: 3,
-    title: "Physically-Based Moebius Rendering",
+    title: "Physically-Based Moebius Shading",
     description:
       "A post-processing shader that focuses on producing outlines and procedural hatching. The output creates a two-layered, physically-based, cel shading which retains all of the lighting data to create an accurate, illustration effect.",
     tags: [
@@ -74,7 +73,7 @@ export const renderingData = [
   },
   {
     id: 4,
-    title: "Multi-pass Painterly Rendering",
+    title: "Multi-pass Painterly Shading",
     description:
       "A multi-pass anisotropic kuwahara filter. Uses Unreal Engine 5.5's user texture input feature on post processing materials, making it possible to store and organize sobel, gaussian, and kuwahara filters in different passes.",
     tags: [
@@ -91,21 +90,21 @@ export const renderingData = [
 export const toolsData = [
   {
     id: 1,
-    title: "Night Sky System",
-    description:
-      "A tool to easily calibrate the night sky built for a sky sphere material. Involves moon phase shading.",
-    tags: ["Unreal Engine 5", "Blueprints"],
-    gitUrl: "",
-    image: "/images/moonsettingsdemo.gif",
-  },
-  {
-    id: 2,
     title: "Procedural Environment Generation Tool",
     description:
       "A PCG tool that uses a multi-layered noise mapping algorithm for mesh and assembly instancing.",
     tags: ["Unreal Engine 5", "PCG", "Blueprints"],
     gitUrl: "https://www.artstation.com/artwork/zxkWO4",
     image: "/images/pcg2.jpg",
+  },
+  {
+    id: 2,
+    title: "Night Sky System",
+    description:
+      "A tool to easily calibrate the night sky built for a sky sphere material. Involves moon phase shading.",
+    tags: ["Unreal Engine 5", "Blueprints"],
+    gitUrl: "",
+    image: "/images/moonsettingsdemo.gif",
   },
 ] as const;
 
@@ -217,7 +216,6 @@ export const recentData = [
       "HLSL",
       "Non-photorealistic Rendering",
       "Post-processing",
-      "Blender",
     ],
     gitUrl: "https://www.artstation.com/artwork/rl09ve",
     image: "/images/ray-marching.gif",
