@@ -13,27 +13,17 @@ export const Intro = () => {
     <section className="mt-10 lg:mt-10 xl:mt-10">
       <div className="grid grid-cols-1 lg:grid-cols-12">
         <div className="col-span-1 lg:col-span-8 place-self-center text-center lg:text-left justify-center">
-          <h1 className="text-zinc-50 mb-4 text-4xl lg:text-6xl font-extrabold mx-4 sm:mx-0">
+          <h1 className="text-zinc-50 mb-4 text-2xl lg:text-4xl font-extrabold mx-4 sm:mx-0">
             <span className="font-light">
-              hello, thank you for stopping by.
+              Hello, I&apos;m James - I work on computer graphics, rendering,
+              procedural systems, virtual reality, and immersive experiences.
             </span>
           </h1>
           <p className="mx-3 sm:mx-0 text-gray-400 mb-6 text-base font-light sm:text-lg lg:text-xl">
-            I&apos;m James Edralin. I do some work in{" "}
-            <TypeAnimation
-              sequence={[
-                "graphics programming.",
-                1500,
-                "technical art.",
-                1500,
-                "engine development.",
-                1500,
-              ]}
-              wrapper="span"
-              speed={50}
-              style={{ fontSize: "1em", display: "inline-block" }}
-              repeat={10}
-            />
+            I develop tools, shaders, renderers, and interactive environments
+            you can find in this portfolio site; a collection of projects,
+            experiments, prototypes, and systems built around rendering and
+            interaction.
             <br></br>
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center lg:items-start lg:justify-start gap-2 text-base z-20">
@@ -79,14 +69,16 @@ export const Intro = () => {
           </div>
         </div>
         <div className="col-span-4 place-self-center mt-16">
-          <div className="rounded-full w-[200px] h-[200px] xl:w-[220px] xl:h-[220px] relative bg-stone-800/90 backdrop-blur-sm">
-            <Image
-              src="/images/photo-intro.jpg"
-              alt="profile image"
-              className="rounded-full absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={170}
-              height={170}
-            />
+          <div className="rounded-full w-[200px] h-[200px] xl:w-[220px] xl:h-[220px] relative bg-stone-800/90 backdrop-blur-sm overflow-hidden flex items-center justify-center">
+            <div className="w-[170px] h-[170px] rounded-full overflow-hidden">
+              <Image
+                src="/images/headshot.png"
+                alt="profile image"
+                width={170}
+                height={170}
+                className="object-cover w-full h-full"
+              />
+            </div>
           </div>
         </div>
       </div>

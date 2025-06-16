@@ -237,6 +237,33 @@ export const recentData = [
       "https://eml.ubc.ca/projects/enhanced-auditory-reality-simulation-for-improved-mapping-earsim/",
     image: "/images/brief-earsim.gif",
   },
+  {
+    id: 4,
+    title: "Physically-based Rendering in OpenGL",
+    description:
+      "Learning outputs that uses PBR and deferred shading concepts from Learn OpenGL.",
+    tags: ["OpenGL", "C++", "GLSL", "Physically-based Rendering"],
+    gitUrl: "https://github.com/jamesedra/OpenGL-Lighting",
+    image: "/images/pbr.png",
+  },
+  {
+    id: 5,
+    title: "Procedural Environment Generation Tool",
+    description:
+      "A PCG tool that uses a multi-layered noise mapping algorithm for mesh and assembly instancing.",
+    tags: ["Unreal Engine 5", "PCG", "Blueprints"],
+    gitUrl: "https://www.artstation.com/artwork/zxkWO4",
+    image: "/images/pcg2.jpg",
+  },
+  {
+    id: 6,
+    title: "Night Sky System",
+    description:
+      "A tool to easily calibrate the night sky built for a sky sphere material. Involves moon phase shading.",
+    tags: ["Unreal Engine 5", "Blueprints", "HLSL"],
+    gitUrl: "https://www.artstation.com/artwork/vbZwN3",
+    image: "/images/moonsettingsdemo.gif",
+  },
 ] as const;
 
 export const skillsData = [

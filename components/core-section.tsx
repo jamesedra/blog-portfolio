@@ -18,7 +18,7 @@ export const Core = () => {
         <div className="col-span-1 lg:col-span-2 items-center justify-center lg:items-start pb-8 md:pb-8">
           <RecentWorks />
           <div className="border-t border-zinc-700/40 mt-8 mb-8"></div>
-          <RecentPosts />
+          {/*<RecentPosts />*/}
         </div>
         <div className="col-span-1">
           <div className="flex flex-col items-center justify-center">

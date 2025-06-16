@@ -12,10 +12,10 @@ const links = [
     title: "Works",
     path: "/works",
   },
-  {
-    title: "Posts",
-    path: "/posts",
-  },
+  // {
+  //   title: "Posts",
+  //   path: "/posts",
+  // },
   {
     title: "Source",
     path: "https://github.com/jamesedra/blog-portfolio",

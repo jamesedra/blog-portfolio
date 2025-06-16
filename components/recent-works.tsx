@@ -2,13 +2,13 @@ import { ProjectCard } from "./project-card";
 import { recentData } from "@/lib/data";
 
 export const RecentWorks = () => {
-  const mostRecent = recentData.slice(0, 3);
+  const mostRecent = recentData.slice(0, 6);
   const maxDescriptionLength = 80;
 
   return (
     <>
       <h2 className="flex text-lg items-center justify-center lg:justify-start font-semibold text-zinc-100 mb-4">
-        Recent Works
+        Selected Works
       </h2>
       <div className="grid md:grid-cols-2 xl:grid-cols-3 items-start justify-center lg:justify-start gap-5 mx-5 sm:mx-0">
         {mostRecent.map((project) => {
