@@ -111,9 +111,9 @@ export const toolsData = [
 export const researchData = [
   {
     id: 1,
-    title: "Physically-based Rendering in OpenGL",
+    title: "Advanced Lighting from Learn OpenGL",
     description:
-      "Learning outputs that uses PBR and deferred shading concepts from Learn OpenGL.",
+      "Learning outputs that uses PBR, IBL, and deferred shading concepts from Learn OpenGL.",
     tags: ["OpenGL", "C++", "GLSL", "Physically-based Rendering"],
     gitUrl: "https://github.com/jamesedra/OpenGL-Lighting",
     image: "/images/pbr.png",
@@ -239,9 +239,9 @@ export const recentData = [
   },
   {
     id: 4,
-    title: "Physically-based Rendering in OpenGL",
+    title: "Advanced Lighting from Learn OpenGL",
     description:
-      "Learning outputs that uses PBR and deferred shading concepts from Learn OpenGL.",
+      "Learning outputs that uses PBR, IBL, and deferred shading concepts from Learn OpenGL.",
     tags: ["OpenGL", "C++", "GLSL", "Physically-based Rendering"],
     gitUrl: "https://github.com/jamesedra/OpenGL-Lighting",
     image: "/images/pbr.png",
