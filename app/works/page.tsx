@@ -13,7 +13,8 @@ export default function Works() {
       <p className="text-sm text-center md:text-start text-zinc-500 font-light max-w-sm md:max-w-lg pb-10">
         A collection of personal, professional, and academic work. It is not
         forcefully in chronological order, but it is categorized on my
-        experiences from design, VR development, to graphics programming.
+        experiences from design, Unreal Engine development, to graphics
+        programming.
       </p>
       <h3 className="font-semibold text-zinc-300 pb-2">
         Unreal Engine Development

@@ -3,9 +3,8 @@
 import Image from "next/image";
 // import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
-import { FaGithubSquare } from "react-icons/fa";
-import { HiDownload } from "react-icons/hi";
-import { TypeAnimation } from "react-type-animation";
+import { FaArtstation, FaGithubSquare } from "react-icons/fa";
+import { HiLink } from "react-icons/hi";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 export const Intro = () => {
@@ -26,45 +25,57 @@ export const Intro = () => {
             interaction.
             <br></br>
           </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center lg:items-start lg:justify-start gap-2 text-base z-20">
-            <Link
-              to="contact"
-              smooth={true}
-              duration={900}
-              offset={-90}
-              className="bg-zinc-50 text-zinc-900 justify-center max-w-[90%] w-full sm:w-fit px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 hover:bg-gray-300 active:scale-105 transition whitespace-nowrap cursor-pointer"
-            >
-              Let&apos;s Connect!
-              <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
-            </Link>
-            <a
-              className="bg-stone-800 text-gray-50 justify-center max-w-[90%] w-full sm:w-fit px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 hover:bg-gray-900 active:scale-105 transition cursor-pointer border-black/10 whitespace-nowrap"
-              href="/CV.pdf"
-              download
-            >
-              Download CV{" "}
-              <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
-            </a>
+          <div className="flex flex-col sm:flex-row sm:flex-wrap items-center justify-center lg:items-start lg:justify-start gap-2 text-base z-20">
+            <div className="flex flex-col sm:flex-row sm:flex-wrap items-center justify-center lg:items-start lg:justify-start gap-2 text-base z-20">
+              {/* Connect Button */}
+              <Link
+                to="contact"
+                smooth={true}
+                duration={900}
+                offset={-90}
+                className="bg-zinc-50 text-zinc-900 justify-center w-full sm:w-fit px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 hover:bg-gray-300 active:scale-105 transition whitespace-nowrap cursor-pointer"
+              >
+                Let&apos;s Connect!
+                <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
+              </Link>
 
-            <div className="max-w-[90%] flex gap-2 w-full sm:w-fit justify-center">
+              {/* CV Button */}
               <a
-                className="bg-stone-800 items-center justify-center text-gray-50 px-2 py-4 sm:p-4 flex gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.10] hover:text-gray-50 hover:bg-gray-900 active:scale-105 transition cursor-pointer border-black/10 flex-grow"
-                href="https://www.linkedin.com/in/dedralin/"
+                className="bg-stone-800 text-gray-50 justify-center w-full sm:w-fit px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 hover:bg-gray-900 active:scale-105 transition cursor-pointer border-black/10 whitespace-nowrap"
+                href="https://drive.google.com/file/d/1VIj_qvSmbk7eCQ-kgwtNHdbccUIT-0Xp/view?usp=sharing"
                 target="_blank"
               >
-                {" "}
-                <section className="sm:hidden">LinkedIn</section>
-                <BsLinkedin />
+                View CV
+                <HiLink className="opacity-60 group-hover:translate-y-1 transition" />
               </a>
-              <a
-                className="bg-stone-800 items-center justify-center text-gray-50 px-2 py-4 sm:p-4 flex gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.10] hover:text-gray-50 hover:bg-gray-900 active:scale-105 transition cursor-pointer border-black/10 flex-grow"
-                href="https://github.com/jamesedra"
-                target="_blank"
-              >
-                {" "}
-                <section className="sm:hidden">GitHub</section>
-                <FaGithubSquare />
-              </a>
+
+              {/* Social Icons */}
+              <div className="flex gap-2 w-full sm:w-auto justify-center sm:justify-start">
+                <a
+                  className="bg-stone-800 items-center justify-center text-gray-50 px-2 py-4 sm:p-4 flex gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.10] hover:text-gray-50 hover:bg-gray-900 active:scale-105 transition cursor-pointer border-black/10"
+                  href="https://www.linkedin.com/in/dedralin/"
+                  target="_blank"
+                >
+                  <section className="sm:hidden">LinkedIn</section>
+                  <BsLinkedin />
+                </a>
+                <a
+                  className="bg-stone-800 items-center justify-center text-gray-50 px-2 py-4 sm:p-4 flex gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.10] hover:text-gray-50 hover:bg-gray-900 active:scale-105 transition cursor-pointer border-black/10"
+                  href="https://github.com/jamesedra"
+                  target="_blank"
+                >
+                  <section className="sm:hidden">GitHub</section>
+                  <FaGithubSquare />
+                </a>
+                <a
+                  className="bg-stone-800 items-center justify-center text-gray-50 px-2 py-4 sm:p-4 flex gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.10] hover:text-gray-50 hover:bg-gray-900 active:scale-105 transition cursor-pointer border-black/10"
+                  href="https://www.artstation.com/jamesedra"
+                  target="_blank"
+                >
+                  <section className="sm:hidden">ArtStation</section>
+                  <FaArtstation />
+                </a>
+              </div>
             </div>
           </div>
         </div>
