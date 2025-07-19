@@ -3,7 +3,7 @@ import { BioEntry } from "./bio-entry";
 export default function TimelineComponent() {
   return (
     <>
-      <div className="items-center justify-center rounded-2xl border border-zinc-700/40 pt-6 pr-6 pl-6 max-w-[90%] sm:max-w-md mt-10">
+      <div className="w-full max-w-[100%] sm:w-[28rem] rounded-2xl border border-zinc-700/40 p-6 mt-4">
         <h2 className="flex font-semibold text-zinc-100 mb-5">
           <svg
             viewBox="0 0 24 24"
@@ -20,33 +20,52 @@ export default function TimelineComponent() {
               className="fill-zinc-100/10 stroke-zinc-500"
             ></path>
           </svg>
-          <span className="ml-3">Timeline</span>
+          <span className="ml-3">Work Timeline</span>
         </h2>
         <ol>
           <BioEntry
             entry="UBC Emerging Media Lab"
-            role="Software Developer"
-            date="May 2024 until Present"
             logoSrc="/images/EML.jpg"
+            positions={[
+              {
+                role: "Software Developer - Project",
+                date: ["May 2025", "Present"],
+              },
+              {
+                role: "Software Developer - Staff, Co-op",
+                date: ["Sep 2024", "Apr 2025"],
+              },
+              {
+                role: "Software Developer - Project",
+                date: ["May 2024", "Aug 2024"],
+              },
+            ]}
           />
 
           <BioEntry
             entry="D&J Builders and Power Systems Corporation"
-            role="Architectural Technologist"
-            date="May 2020 until Aug 2022"
             logoSrc="/images/djbuilders-logo.png"
+            positions={[
+              {
+                role: "Architectural Technologist",
+                date: ["May 2020", "Aug 2022"],
+              },
+            ]}
           />
-
           <BioEntry
             entry="JVV Konsult"
-            role="Intern Architect"
-            date="Sep 2019 until Dec 2019"
             logoSrc="/images/jvv-logo.jpg"
+            positions={[
+              {
+                role: "Intern Architect",
+                date: ["Sep 2019", "Dec 2019"],
+              },
+            ]}
           />
         </ol>
       </div>
       {/* Education*/}
-      <div className="items-center justify-center rounded-2xl border border-zinc-700/40 pt-6 pr-6 pl-6 max-w-[90%] sm:max-w-md mt-4">
+      <div className="w-full max-w-[100%] sm:w-[28rem] rounded-2xl border border-zinc-700/40 p-6 mt-4">
         <h2 className="flex font-semibold text-zinc-100 mb-5">
           <svg
             viewBox="0 0 24 24"
@@ -71,16 +90,101 @@ export default function TimelineComponent() {
         <ol>
           <BioEntry
             entry="University of British Columbia"
-            role="Bachelor of Computer Science"
-            date="Sep 2022 until Present"
             logoSrc="/images/ubc-logo.jpg"
+            positions={[
+              {
+                role: "Bachelor of Computer Science (BCS)",
+                date: ["Sep 2022", "Present"],
+              },
+            ]}
           />
 
           <BioEntry
             entry="De La Salle-College of Saint Benilde"
-            role="Bachelor of Science in Architecture"
-            date="Aug 2015 until May 2020"
             logoSrc="/images/benilde-logo.png"
+            positions={[
+              {
+                role: "Bachelor of Science in Architecture",
+                date: ["Aug 2015", "May 2020"],
+              },
+            ]}
+          />
+        </ol>
+      </div>
+
+      {/* Awards */}
+      <div className="w-full max-w-[100%] sm:w-[28rem] rounded-2xl border border-zinc-700/40 p-6 mt-4">
+        <h2 className="flex font-semibold text-zinc-100 mb-5">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            aria-hidden="true"
+            className="h-6 w-6 flex-none"
+          >
+            <path
+              d="M8 21h8M12 17v4M18 3H6v4a6 6 0 0012 0V3z"
+              className="fill-zinc-100/10 stroke-zinc-500"
+            />
+          </svg>
+          <span className="ml-3">Awards</span>
+        </h2>
+        <ol>
+          <BioEntry
+            entry="ACM SIGGRAPH 2025 Student Research Competition"
+            logoSrc="/images/siggraph.jpg"
+            positions={[
+              {
+                role: "Third Place - Undergraduate Category",
+                date: ["Jul 2025"],
+              },
+            ]}
+          />
+
+          <BioEntry
+            entry="UBC - Kirk Karasin Scholarship Award"
+            logoSrc="/images/ubc-logo.jpg"
+            positions={[
+              {
+                role: "First Place - Scholarship Recipient",
+                date: ["Apr 2025"],
+              },
+            ]}
+          />
+        </ol>
+      </div>
+
+      {/* Volunteering */}
+      <div className="w-full max-w-[100%] sm:w-[28rem] rounded-2xl border border-zinc-700/40 p-6 mt-4">
+        <h2 className="flex font-semibold text-zinc-100 mb-5">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            aria-hidden="true"
+            className="h-6 w-6 flex-none"
+          >
+            <path
+              d="M12 20s-7-4.35-7-9.5A4.5 4.5 0 0112 6a4.5 4.5 0 017 4.5C19 15.65 12 20 12 20z"
+              className="fill-zinc-100/10 stroke-zinc-500"
+            />
+          </svg>
+          <span className="ml-3">Extracurricular</span>
+        </h2>
+        <ol>
+          <BioEntry
+            entry="SIGGRAPH 2025"
+            logoSrc="/images/siggraph.jpg"
+            positions={[
+              {
+                role: "Poster Contributor (AR/VR) | Volunteer",
+                date: ["Aug 2025"],
+              },
+            ]}
           />
         </ol>
       </div>

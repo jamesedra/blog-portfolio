@@ -24,7 +24,7 @@ export const Core = () => {
           <div className="flex flex-col items-center justify-center">
             <TimelineComponent />
             <Skills />
-            <Mail />
+            {/*<Mail />*/}
           </div>
         </div>
       </div>

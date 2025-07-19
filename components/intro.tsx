@@ -28,7 +28,7 @@ export const Intro = () => {
           <div className="flex flex-col sm:flex-row sm:flex-wrap items-center justify-center lg:items-start lg:justify-start gap-2 text-base z-20">
             <div className="flex flex-col sm:flex-row sm:flex-wrap items-center justify-center lg:items-start lg:justify-start gap-2 text-base z-20">
               {/* Connect Button */}
-              <Link
+              {/* <Link
                 to="contact"
                 smooth={true}
                 duration={900}
@@ -37,11 +37,11 @@ export const Intro = () => {
               >
                 Let&apos;s Connect!
                 <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
-              </Link>
+              </Link> */}
 
               {/* CV Button */}
               <a
-                className="bg-stone-800 text-gray-50 justify-center w-full sm:w-fit px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 hover:bg-gray-900 active:scale-105 transition cursor-pointer border-black/10 whitespace-nowrap"
+                className="bg-zinc-50 text-zinc-900 justify-center w-full sm:w-fit px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 hover:bg-gray-900 active:scale-105 transition cursor-pointer border-black/10 whitespace-nowrap"
                 href="https://drive.google.com/file/d/1VIj_qvSmbk7eCQ-kgwtNHdbccUIT-0Xp/view?usp=sharing"
                 target="_blank"
               >
