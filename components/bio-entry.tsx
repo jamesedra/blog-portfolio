@@ -37,33 +37,31 @@ export const BioEntry: React.FC<EntryProps> = ({
         return (
           <div
             key={idx}
-            className={`flex flex-wrap items-baseline gap-x-2 ${
+            className={`flex items-center gap-x-2 ${
               idx !== 0
                 ? "border-t border-zinc-200 dark:border-zinc-700 pt-3 mt-3"
                 : ""
             }`}
           >
-            {/* role */}
-            <dd className="text-xs text-zinc-700 dark:text-zinc-300">{role}</dd>
+            {/* role / description */}
+            <dd className="flex-1 text-[0.70rem] text-zinc-700 dark:text-zinc-300">
+              {role}
+            </dd>
 
-            {/* date – large screens */}
+            {/* date  — large screens */}
             <dd
-              className="ml-auto hidden lg:block w-36 flex-none whitespace-nowrap text-right text-xs text-zinc-500 dark:text-zinc-400"
+              className="hidden lg:block w-36 flex-none text-right text-[0.70rem] whitespace-nowrap text-zinc-500 dark:text-zinc-400"
               aria-label={showDash ? `${from} — ${to}` : singleLabel}
             >
               {from && <time dateTime={from}>{from}</time>}
               {showDash && <span aria-hidden> — </span>}
-              {!showDash &&
-                !from &&
-                to && ( // only 'to' given
-                  <time dateTime={to}>{to}</time>
-                )}
+              {!showDash && !from && to && <time dateTime={to}>{to}</time>}
               {showDash && to && <time dateTime={to}>{to}</time>}
             </dd>
 
-            {/* stacked – small screens */}
+            {/* date — stacked on small screens */}
             <dd
-              className="lg:hidden w-full whitespace-nowrap text-xs text-zinc-500 dark:text-zinc-400"
+              className="lg:hidden w-full text-[0.70rem] whitespace-nowrap text-zinc-500 dark:text-zinc-400"
               aria-label={showDash ? `${from} — ${to}` : singleLabel}
             >
               {from && <time dateTime={from}>{from}</time>}
