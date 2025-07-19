@@ -3,7 +3,7 @@ import { BioEntry } from "./bio-entry";
 export default function TimelineComponent() {
   return (
     <>
-      <div className="w-full max-w-[100%] sm:w-[28rem] rounded-2xl border border-zinc-700/40 p-6 mt-4">
+      <div className="w-full max-w-[100%] sm:w-[28rem] rounded-2xl bg-slate-700/10 border border-zinc-700/40 p-6 mt-4">
         <h2 className="flex font-semibold text-zinc-100 mb-5">
           <svg
             viewBox="0 0 24 24"
@@ -65,7 +65,7 @@ export default function TimelineComponent() {
         </ol>
       </div>
       {/* Education*/}
-      <div className="w-full max-w-[100%] sm:w-[28rem] rounded-2xl border border-zinc-700/40 p-6 mt-4">
+      <div className="w-full max-w-[100%] sm:w-[28rem] rounded-2xl bg-stone-700/10 border border-zinc-700/40 p-6 mt-4">
         <h2 className="flex font-semibold text-zinc-100 mb-5">
           <svg
             viewBox="0 0 24 24"
@@ -113,7 +113,7 @@ export default function TimelineComponent() {
       </div>
 
       {/* Awards */}
-      <div className="w-full max-w-[100%] sm:w-[28rem] rounded-2xl border border-zinc-700/40 p-6 mt-4">
+      <div className="w-full max-w-[100%] sm:w-[28rem] rounded-2xl bg-slate-700/10 border border-zinc-700/40 p-6 mt-4">
         <h2 className="flex font-semibold text-zinc-100 mb-5">
           <svg
             viewBox="0 0 24 24"
@@ -157,7 +157,7 @@ export default function TimelineComponent() {
       </div>
 
       {/* Volunteering */}
-      <div className="w-full max-w-[100%] sm:w-[28rem] rounded-2xl border border-zinc-700/40 p-6 mt-4">
+      <div className="w-full max-w-[100%] sm:w-[28rem] rounded-2xl bg-stone-700/10 border border-zinc-700/40 p-6 mt-4">
         <h2 className="flex font-semibold text-zinc-100 mb-5">
           <svg
             viewBox="0 0 24 24"

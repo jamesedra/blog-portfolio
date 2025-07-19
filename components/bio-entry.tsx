@@ -1,68 +1,51 @@
-type Position = {
-  role: string;
-  /** Pass empty string or omit the second element for single‑date items */
-  date: [string, string?];
-};
-
-type EntryProps = {
-  entry: string;
-  logoSrc: string;
-  positions: Position[];
-};
+type Position = { role: string; date: [string, string?] };
+type EntryProps = { entry: string; logoSrc: string; positions: Position[] };
 
 export const BioEntry: React.FC<EntryProps> = ({
   entry,
   logoSrc,
   positions,
 }) => (
-  <li className="flex gap-4">
+  <li className="flex gap-4 pt-1">
     {/* logo */}
-    <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
+    <div className="mt-[2px] flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800">
       <div
-        className="h-8 w-8 rounded-full bg-center bg-cover bg-stone-300"
+        className="h-8 w-8 rounded-full bg-cover bg-center bg-stone-300"
         style={{ backgroundImage: `url(${logoSrc})` }}
       />
     </div>
 
     {/* body */}
-    <dl className="flex flex-col flex-auto gap-y-2 pb-4">
-      <dd className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+    <dl className="flex flex-col flex-auto gap-y-2">
+      <dd className="text-sm -mb-3 font-semibold text-zinc-900 dark:text-zinc-100">
         {entry}
       </dd>
 
-      {positions.map(({ role, date }, idx) => {
+      {positions.map(({ role, date }, i) => {
         const [from = "", to = ""] = date;
         const showDash = from && to && from !== to;
-        const singleLabel = from || to;
+        const label = showDash ? `${from} — ${to}` : from || to;
+
         return (
           <div
-            key={idx}
-            className={`flex items-center gap-x-2 ${
-              idx !== 0
-                ? "border-t border-zinc-200 dark:border-zinc-700 pt-3 mt-3"
-                : ""
-            }`}
+            key={i}
+            /*  ▸ block on mobile  ▸ 2‑col grid from md upward */
+            className={`
+              py-3
+              ${i ? "border-t border-zinc-700/40" : ""}
+              md:grid md:grid-cols-[1fr_auto] md:gap-x-4
+            `}
           >
-            {/* role / description */}
-            <dd className="flex-1 text-[0.70rem] text-zinc-700 dark:text-zinc-300">
+            <dd className="text-[0.73rem] text-zinc-700 dark:text-zinc-300">
               {role}
             </dd>
 
-            {/* date  — large screens */}
             <dd
-              className="hidden lg:block w-36 flex-none text-right text-[0.70rem] whitespace-nowrap text-zinc-500 dark:text-zinc-400"
-              aria-label={showDash ? `${from} — ${to}` : singleLabel}
-            >
-              {from && <time dateTime={from}>{from}</time>}
-              {showDash && <span aria-hidden> — </span>}
-              {!showDash && !from && to && <time dateTime={to}>{to}</time>}
-              {showDash && to && <time dateTime={to}>{to}</time>}
-            </dd>
-
-            {/* date — stacked on small screens */}
-            <dd
-              className="lg:hidden w-full text-[0.70rem] whitespace-nowrap text-zinc-500 dark:text-zinc-400"
-              aria-label={showDash ? `${from} — ${to}` : singleLabel}
+              className="
+                mt-1 md:mt-0
+                text-[0.73rem] whitespace-nowrap md:text-right
+                text-zinc-500 dark:text-zinc-400"
+              aria-label={label}
             >
               {from && <time dateTime={from}>{from}</time>}
               {showDash && <span aria-hidden> — </span>}
