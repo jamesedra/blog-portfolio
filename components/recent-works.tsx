@@ -10,7 +10,10 @@ export const RecentWorks = () => {
       <h2 className="flex text-lg items-center justify-center lg:justify-start font-semibold text-zinc-100 mb-4">
         Selected Works
       </h2>
-      <div className="grid md:grid-cols-2 xl:grid-cols-3 items-start justify-center lg:justify-start gap-5 mx-5 sm:mx-0">
+      <div
+        className="grid gap-5 mx-5 sm:mx-0
+                [grid-template-columns:repeat(auto-fit,minmax(18rem,1fr))]"
+      >
         {mostRecent.map((project) => {
           const tagsToShow =
             project.tags.length > 2

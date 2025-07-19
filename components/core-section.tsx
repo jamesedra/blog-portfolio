@@ -8,26 +8,27 @@ import dynamic from "next/dynamic";
 
 const RecentPosts = dynamic(() => import("./recent-posts"));
 
-export const Core = () => {
-  return (
-    <section className="text-white">
-      <div
-        className="lg:grid items-center justify-center lg:justify-start lg:grid-cols-3 gap-8"
-        style={{ alignItems: "start" }}
-      >
-        <div className="col-span-1 lg:col-span-2 items-center justify-center lg:items-start pb-8 md:pb-8">
-          <RecentWorks />
-          <div className="border-t border-zinc-700/40 mt-8 mb-8"></div>
-          {/*<RecentPosts />*/}
-        </div>
-        <div className="col-span-1">
-          <div className="flex flex-col items-center justify-center">
-            <TimelineComponent />
-            <Skills />
-            {/*<Mail />*/}
-          </div>
-        </div>
+export const Core = () => (
+  <section className="text-white">
+    <div
+      className="
+        lg:grid gap-8 lg:grid-cols-[minmax(0,1fr)_30rem] items-start"
+    >
+      {/* LEFT */}
+      <div>
+        <RecentWorks />
+        <div className="border-t border-zinc-700/40 my-8" />
+        {/* <RecentPosts /> */}
       </div>
-    </section>
-  );
-};
+
+      {/* RIGHT */}
+      <aside className="flex flex-col gap-4">
+        {" "}
+        {/* gap for spacing */}
+        <TimelineComponent />
+        <Skills />
+        {/* <Mail /> */}
+      </aside>
+    </div>
+  </section>
+);
