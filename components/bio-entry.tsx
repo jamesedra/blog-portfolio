@@ -48,7 +48,7 @@ export const BioEntry: React.FC<EntryProps> = ({
 
             {/* date – large screens */}
             <dd
-              className="ml-auto hidden w-32 flex-none text-right text-xs text-zinc-500 dark:text-zinc-400 lg:block"
+              className="ml-auto hidden lg:block w-36 flex-none whitespace-nowrap text-right text-xs text-zinc-500 dark:text-zinc-400"
               aria-label={showDash ? `${from} — ${to}` : singleLabel}
             >
               {from && <time dateTime={from}>{from}</time>}
@@ -63,7 +63,7 @@ export const BioEntry: React.FC<EntryProps> = ({
 
             {/* stacked – small screens */}
             <dd
-              className="lg:hidden w-full text-xs text-zinc-500 dark:text-zinc-400"
+              className="lg:hidden w-full whitespace-nowrap text-xs text-zinc-500 dark:text-zinc-400"
               aria-label={showDash ? `${from} — ${to}` : singleLabel}
             >
               {from && <time dateTime={from}>{from}</time>}

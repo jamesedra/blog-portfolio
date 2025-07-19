@@ -41,7 +41,7 @@ export const Intro = () => {
 
               {/* CV Button */}
               <a
-                className="bg-zinc-50 text-zinc-900 justify-center w-full sm:w-fit px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 hover:bg-gray-900 active:scale-105 transition cursor-pointer border-black/10 whitespace-nowrap"
+                className="bg-zinc-50 text-zinc-900 justify-center w-full sm:w-fit px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 hover:bg-zinc-500 active:scale-105 transition cursor-pointer border-black/10 whitespace-nowrap"
                 href="https://drive.google.com/file/d/1VIj_qvSmbk7eCQ-kgwtNHdbccUIT-0Xp/view?usp=sharing"
                 target="_blank"
               >
