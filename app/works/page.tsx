@@ -4,6 +4,7 @@ import { renderingData } from "@/lib/data";
 import { toolsData } from "@/lib/data";
 import { designWorkData } from "@/lib/data";
 import { researchData } from "@/lib/data";
+import { gameData } from "@/lib/data";
 import { ProjectCard } from "@/components/project-card";
 
 export default function Works() {
@@ -39,7 +40,7 @@ export default function Works() {
       </div>
       <div className="border-t border-zinc-700/40 mt-14 mb-14 w-full"></div>
       <h3 className="font-semibold text-zinc-300 pb-2">
-        Rendering and Shader Development
+        Shaders and Rendering
       </h3>
       <p className="text-sm text-center md:text-start text-zinc-400 font-light pb-4 max-w-sm md:max-w-lg">
         programs with a goal on producing creative visual media.
@@ -68,6 +69,25 @@ export default function Works() {
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 justify-center">
         {toolsData.map((project) => (
+          <ProjectCard
+            key={project.id}
+            title={project.title}
+            description={project.description}
+            imgUrl={project.image}
+            gitUrl={project.gitUrl}
+            tags={Array.from(project.tags)}
+            // width="72"
+            height="h-64"
+          />
+        ))}
+      </div>
+      <div className="border-t border-zinc-700/40 mt-14 mb-14 w-full"></div>
+      <h3 className="font-semibold text-zinc-300 pb-2">Games</h3>
+      <p className="text-sm text-center md:text-start text-zinc-400 font-light pb-4 max-w-sm md:max-w-lg">
+        small games with small teams.
+      </p>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 justify-center">
+        {gameData.map((project) => (
           <ProjectCard
             key={project.id}
             title={project.title}

@@ -16,8 +16,8 @@ export const RecentWorks = () => {
       >
         {mostRecent.map((project) => {
           const tagsToShow =
-            project.tags.length > 2
-              ? [...project.tags.slice(0, 2), "..."]
+            project.tags.length > 3
+              ? [...project.tags.slice(0, 3), "..."]
               : project.tags;
 
           const truncatedDescription =

@@ -239,12 +239,12 @@ export const recentData = [
   },
   {
     id: 4,
-    title: "Advanced Lighting from Learn OpenGL",
+    title: "Dig! Dig! Dig!",
     description:
-      "Learning outputs that uses PBR, IBL, and deferred shading concepts from Learn OpenGL.",
-    tags: ["OpenGL", "C++", "GLSL", "Physically-based Rendering"],
-    gitUrl: "https://github.com/jamesedra/OpenGL-Lighting",
-    image: "/images/pbr.png",
+      "A mining game with procedurally generated tiles using cellular automata and filling algorithms. Optimized in real-time using chunk management. Brackeys Game Jam 2025.2 submission.",
+    tags: ["GameMaker", "GLM", "GLSL"],
+    gitUrl: "https://squiffy121.itch.io/dig-dig-dig",
+    image: "/images/digdigdig.gif",
   },
   {
     id: 5,
@@ -263,6 +263,18 @@ export const recentData = [
     tags: ["Unreal Engine 5", "Blueprints", "HLSL"],
     gitUrl: "https://www.artstation.com/artwork/vbZwN3",
     image: "/images/moonsettingsdemo.gif",
+  },
+] as const;
+
+export const gameData = [
+  {
+    id: 1,
+    title: "Dig! Dig! Dig!",
+    description:
+      "A mining game with procedurally generated tiles using cellular automata and filling algorithms. Optimized in real-time using chunk management. Brackeys Game Jam 2025.2 submission.",
+    tags: ["GameMaker", "GLM", "GLSL"],
+    gitUrl: "https://squiffy121.itch.io/dig-dig-dig",
+    image: "/images/digdigdig.gif",
   },
 ] as const;
 
