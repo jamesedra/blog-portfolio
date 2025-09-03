@@ -242,7 +242,7 @@ export const recentData = [
     title: "Dig! Dig! Dig!",
     description:
       "A mining game with procedurally generated tiles using cellular automata and filling algorithms. Optimized in real-time using chunk management. Brackeys Game Jam 2025.2 submission.",
-    tags: ["GameMaker", "GLM", "GLSL"],
+    tags: ["GameMaker", "GML", "GLSL"],
     gitUrl: "https://squiffy121.itch.io/dig-dig-dig",
     image: "/images/digdigdig.gif",
   },
@@ -272,7 +272,7 @@ export const gameData = [
     title: "Dig! Dig! Dig!",
     description:
       "A mining game with procedurally generated tiles using cellular automata and filling algorithms. Optimized in real-time using chunk management. Brackeys Game Jam 2025.2 submission.",
-    tags: ["GameMaker", "GLM", "GLSL"],
+    tags: ["GameMaker", "GML", "GLSL"],
     gitUrl: "https://squiffy121.itch.io/dig-dig-dig",
     image: "/images/digdigdig.gif",
   },
