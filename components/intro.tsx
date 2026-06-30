@@ -83,7 +83,7 @@ export const Intro = () => {
           <div className="rounded-full w-[200px] h-[200px] xl:w-[220px] xl:h-[220px] relative bg-stone-800/90 backdrop-blur-sm overflow-hidden flex items-center justify-center">
             <div className="w-[170px] h-[170px] rounded-full overflow-hidden">
               <Image
-                src="/images/headshot.png"
+                src="/images/headshot.jpg"
                 alt="profile image"
                 width={170}
                 height={170}

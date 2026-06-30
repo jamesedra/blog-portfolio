@@ -59,6 +59,16 @@ export const renderingData = [
   },
   {
     id: 3,
+    title: "Toon Volumetrics and Raymarching",
+    description:
+      "A two-pass raymarcher for stylized volumetric lighting: the first pass computes surface color and light-space cloud projection, while the second pass raymarches along the projected light direction, max-filtering cloud density to produce banded god rays.",
+    tags: ["Three.JS", "GLSL", "Non-photorealistic Rendering", "Raymarching"],
+    gitUrl:
+      "https://github.com/jamesedra/volumetric-rays-with-shadow-projection/",
+    image: "/images/raymarch.gif",
+  },
+  {
+    id: 4,
     title: "Physically-Based Moebius Shading",
     description:
       "A post-processing shader that focuses on producing outlines and procedural hatching. The output creates a two-layered, physically-based, cel shading which retains all of the lighting data to create an accurate, illustration effect.",
@@ -72,7 +82,7 @@ export const renderingData = [
     image: "/images/moebius.gif",
   },
   {
-    id: 4,
+    id: 5,
     title: "Multi-pass Painterly Shading",
     description:
       "A multi-pass anisotropic kuwahara filter. Uses Unreal Engine 5.5's user texture input feature on post processing materials, making it possible to store and organize sobel, gaussian, and kuwahara filters in different passes.",

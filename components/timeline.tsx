@@ -24,12 +24,23 @@ export default function TimelineComponent() {
         </h2>
         <ol>
           <BioEntry
+            entry="Electronic Arts - Advanced Technology Group"
+            logoSrc="/images/6317b9f455e8ff71c33a5751.png"
+            positions={[
+              {
+                role: "Software Engineer - Co-op",
+                date: ["May 2026", "Present"],
+              },
+            ]}
+          />
+
+          <BioEntry
             entry="UBC Emerging Media Lab"
             logoSrc="/images/EML.jpg"
             positions={[
               {
                 role: "Software Developer - Project",
-                date: ["May 2025", "Present"],
+                date: ["May 2025", "April 2026"],
               },
               {
                 role: "Software Developer - Staff, Co-op",
